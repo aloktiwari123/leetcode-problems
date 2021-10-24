@@ -6,6 +6,7 @@ import java.util.List;
 
 public class find_duplicate {
 	
+	
 	/*
 	 public static List<Integer> findDuplicates(int[] nums) // Hashset approach
 	 {
@@ -23,10 +24,10 @@ public class find_duplicate {
 			}
 		}
 		return out;
-	        
-	 }
+	}
 	 */
-	 public static List<Integer> findDuplicates(int[] nums)
+	 
+	public static List<Integer> findDuplicates(int[] nums)
 	 {
 		List<Integer>out=new ArrayList<Integer>();
 		
@@ -41,9 +42,8 @@ public class find_duplicate {
 			nums[index]=nums[index]*-1;
 		}
 		return out;
-		 
 	 }
-	 
+	
 	 public static void main(String args[])
 	 {
 		 int[] nums = {4,3,2,7,8,2,3,1};
