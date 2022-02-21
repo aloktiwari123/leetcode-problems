@@ -35,8 +35,5 @@ public class merge_two_sorted_list {
 		return res;
         
     }
-	public static void main(String args[])
-	{
-		ListNode l1=new ListNode();
-	}
+	
 }

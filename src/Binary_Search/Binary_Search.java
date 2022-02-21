@@ -9,13 +9,13 @@ public class Binary_Search {
 		 
 		 while(l<=u)
 		 {
-		 int mid=u+l/2;
+		 int mid=l+(u-l)/2;
 		 if(nums[mid]==target)
 		 {
-			 return mid;
+ 			 return mid;
 		 }
 		 if(nums[mid]<target)
-		 {
+		 { 
 			 l=mid+1;
 		 }
 		 if(nums[mid]>target)
@@ -23,12 +23,14 @@ public class Binary_Search {
 			 u=mid-1;
 		 }
 		 }
-		return -1;   
+		 return -1;
 	 }
+	
+	 
 	 public static void main(String args[])
 	 {
 		 int[] nums={-1,0,3,5,9,12};
-		 int target=2;
+		 int target=9;
 		 System.out.print(search(nums, target));
 	 }
 

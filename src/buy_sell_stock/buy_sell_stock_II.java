@@ -14,11 +14,10 @@ public class buy_sell_stock_II {
 			}
 		}
 		return diff;
-		
 	}
-	public static void main(String args[]) {
+	public static void main(String args[]) 
+	{
 		int[] prices= {1,2,3,4,5};
 		System.out.print(buy_sell(prices));
-		
 	}
 }
